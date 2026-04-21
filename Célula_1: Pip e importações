@@ -1,0 +1,15 @@
+import sys
+!{sys.executable} -m pip install trl transformers peft datasets accelerate bitsandbytes -q
+
+import os
+import json
+import torch
+from datasets import Dataset
+from transformers import (
+    AutoModelForCausalLM,
+    AutoTokenizer,
+    TrainingArguments,
+    BitsAndBytesConfig,
+)
+from peft import LoraConfig, get_peft_model, PeftModel
+from trl import DPOTrainer, DPOConfig
