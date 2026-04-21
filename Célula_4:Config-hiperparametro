@@ -1,0 +1,2 @@
+BETA = 0.1
+print(f"Beta configurado: {BETA}")
