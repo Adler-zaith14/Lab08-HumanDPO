@@ -140,6 +140,8 @@ trl, transformers, peft, datasets, accelerate, bitsandbytes
 **Google Colab:**
 [https://colab.research.google.com/drive/1uqOaiYyuksl93bRmPISDN74lIKALMc1_?usp=sharing]
 
+**Kaggle:**
+[https://www.kaggle.com/code/adlerzaith/atividade08-dimmy-py]
 
 **Referência:**  
 * GOODFELLOW, Ian; BENGIO, Yoshua; COURVILLE, Aaron. Deep Learning. [S. l.]: MIT Press, 2016..
