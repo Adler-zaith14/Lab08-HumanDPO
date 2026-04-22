@@ -1,0 +1,5 @@
+%cd /content
+!git clone https://Adler-zaith14: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@github.com/Adler-zaith14/Lab08-HumanDPO.git
+%cd Lab08-HumanDPO
+!git tag v1.0
+!git push origin v1.0
